@@ -8,11 +8,11 @@
   <h1 id="title">Survey Form</h1>
   <p id="description">Hello, It's me Jaydeep. I am creating this form as an assignment.</p>
   <form id="survey-form">
-    <label id="name-label" for="name">Name: <input id="name" type="text" placeholder="Enter your name" required></label>
+    <label id="name-label" for="name">Name: <input id="name" name="name" type="text" placeholder="Enter your name" required></label>
 
-    <label id="email-label" for="email">Email: <input id="email" type="email" placeholder="Enter your email" required></label>
+    <label id="email-label" for="email">Email: <input id="email" name="email" type="email" placeholder="Enter your email" required></label>
 
-    <label id="number-label" for="number">Age: <input id="number" type="number" min="13" max="120" placeholder="Enter your age" required></label>
+    <label id="number-label" for="number">Age: <input id="number" name="age" type="number" min="13" max="120" placeholder="Enter your age" required></label>
 
     <label for="dropdown">Gender: <select id="dropdown">
       <option name="option" value="male">Male</option>
@@ -31,11 +31,11 @@
 
       <label>Education Status: </label>
 
-      <label class="op"><input type="checkbox" value="10th"> 10th</label>
+      <label class="op"><input type="checkbox" name="education" value="10th"> 10th</label>
 
-      <label class="op"><input type="checkbox" value="12th"> 12th</label>
+      <label class="op"><input type="checkbox" name="education" value="12th"> 12th</label>
 
-      <label class="op"><input type="checkbox" value="Bach"> Bachlore's</label>
+      <label class="op"><input type="checkbox" name="education" value="Bach"> Bachlore's</label>
 
       <label>Additional Comments: <br> <textarea rows="3" cols="35"></textarea></label>
 
