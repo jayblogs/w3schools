@@ -1,0 +1,25 @@
+label {
+  margin: 10px;
+  display: block;
+  color: #0E5E6F;
+}
+
+body {
+  background-color: #F2DEBA;
+}
+
+h1, p {
+  color: #0E5E6F;
+}
+
+input {
+  color: #98A8F8;
+}
+
+input:last-of-type {
+  color: #000000;
+}
+
+.op {
+  color: #434242;
+}
